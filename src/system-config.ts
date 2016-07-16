@@ -3,10 +3,14 @@
  **********************************************************************************************/
 /** Map relative paths to URLs. */
 const map: any = {
+  'bootstrap': 'vendor/bootstrap/dist/css'
 };
 
 /** User packages configuration. */
 const packages: any = {
+   'bootstrap': {
+   defaultExtension: 'css'
+    }
 };
 
 ////////////////////////////////////////////////////////////////////////////////////////////////
